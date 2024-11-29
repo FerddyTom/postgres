@@ -1,0 +1,28 @@
+@DemoEntity_HostAddress = https://localhost:7032
+
+GET {{DemoEntity_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
+
+GET {{DemoEntity_HostAddress}}/weatherforecast
+
+###
+
+POST {{DemoEntity_HostAddress}}/api/jutsu
+Content-Type: application/json
+
+{
+  //Jutsu
+}
+
+###
+
+POST {{DemoEntity_HostAddress}}/api/jutsu
+Content-Type: application/json
+
+{
+  //Jutsu
+}
+
+###
